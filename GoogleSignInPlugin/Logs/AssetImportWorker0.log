@@ -1,0 +1,564 @@
+Unity Editor version:    2021.3.12f1 (8af3c3e441b1)
+Branch:                  2021.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/diegomeire/Documents/Unity Projects/google-signin-unity/GoogleSignInPlugin
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62362
+Successfully changed project path to: /Users/diegomeire/Documents/Unity Projects/google-signin-unity/GoogleSignInPlugin
+/Users/diegomeire/Documents/Unity Projects/google-signin-unity/GoogleSignInPlugin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 87.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/diegomeire/Documents/Unity Projects/google-signin-unity/GoogleSignInPlugin/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 555X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56210
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.12f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.12f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001561 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 91.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1039ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (214ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003229 seconds.
+Android Extension - Scanning For ADB Devices 612 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/diegomeire/Documents/Unity Projects/google-signin-unity/GoogleSignInPlugin/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/diegomeire/Documents/Unity Projects/google-signin-unity/GoogleSignInPlugin/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1287ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (946ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3278 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (40.4 KB). Loaded Objects now: 3733.
+Memory consumption went from 96.9 MB to 96.9 MB.
+Total: 4.053915 ms (FindLiveObjects: 0.462457 ms CreateObjectMapping: 0.350137 ms MarkObjects: 3.068132 ms  DeleteObjects: 0.171989 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 73797.957478 seconds.
+  path: Assets/GoogleSignIn
+  artifactKey: Guid(a089c79cc334748a5a29c5f219b7cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn using Guid(a089c79cc334748a5a29c5f219b7cfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb4ffc480e316d917b2c90b2a8a73b7') in 0.008318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.568487 seconds.
+  path: Assets/SignInSample
+  artifactKey: Guid(72144944860064d55967011d7aa260bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SignInSample using Guid(72144944860064d55967011d7aa260bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f130499a03ffebda332233267cf27786') in 0.002244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.175848 seconds.
+  path: Assets/SignInSample/MainScene.unity
+  artifactKey: Guid(4dbc020c6ee6d47e2a668e83cc5ee276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SignInSample/MainScene.unity using Guid(4dbc020c6ee6d47e2a668e83cc5ee276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e51e072b79f62a82335feb9edc6418') in 0.001524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.597859 seconds.
+  path: Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll
+  artifactKey: Guid(86460262ea60447dbb6a62d21167790f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll using Guid(86460262ea60447dbb6a62d21167790f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b680b3691fb66ab63c875c2da9791c1') in 0.131347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/maven-metadata.xml.md5
+  artifactKey: Guid(c020582c1a85d47c7934908f00a0bd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/maven-metadata.xml.md5 using Guid(c020582c1a85d47c7934908f00a0bd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cfe581375aadf018854a94b1fea9b1') in 0.124867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/GoogleSignIn/Impl/NativeFuture.cs
+  artifactKey: Guid(5f1aae79b1ca4432d9d8ec382c54bf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Impl/NativeFuture.cs using Guid(5f1aae79b1ca4432d9d8ec382c54bf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5242f5e956b6f841b295f62b76e9da5b') in 0.266604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Parse/LICENSE
+  artifactKey: Guid(9dd0e3c9dea104831bc092afe2f6eb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parse/LICENSE using Guid(9dd0e3c9dea104831bc092afe2f6eb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d59d1d61df30fd149afaca3a424fbb') in 0.001888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4/google-signin-support-1.0.4.srcaar.md5
+  artifactKey: Guid(79f9d122dd99b483282294f3b1f1bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4/google-signin-support-1.0.4.srcaar.md5 using Guid(79f9d122dd99b483282294f3b1f1bd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a344474d2d75d5d10ab4c0ee417af1fd') in 0.002564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.mdb
+  artifactKey: Guid(5855ffeab65945dc8f9cb3dc063f9eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.mdb using Guid(5855ffeab65945dc8f9cb3dc063f9eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5ae2fc0985f339826836d6f4ea5a61') in 0.102800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/GoogleSignIn/Editor/GoogleSignInDependencies.xml
+  artifactKey: Guid(938014c9994164100b26d82840a88fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/GoogleSignInDependencies.xml using Guid(938014c9994164100b26d82840a88fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eed0504b08184b8b14f8428f9f1eb32') in 0.679082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository
+  artifactKey: Guid(eefc3dc8b56e545998952bd59ab36247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository using Guid(eefc3dc8b56e545998952bd59ab36247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a673dda42c291abac1a652c97365c4') in 0.001464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/ExternalDependencyManager/Editor/README.md
+  artifactKey: Guid(6fd4c95e7f9941198f1bac5f0fff74c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/README.md using Guid(6fd4c95e7f9941198f1bac5f0fff74c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d7afb189bb01fe8dcfb29ef4cb0d35') in 0.165382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/GoogleSignIn/Impl
+  artifactKey: Guid(2fbe4f3ec9db4415e849f9bb89e63a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Impl using Guid(2fbe4f3ec9db4415e849f9bb89e63a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89089890f962227f082e5e56ab15997b') in 0.001383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Plugins/iOS/libUniWebView.a
+  artifactKey: Guid(060e1768692e941c2aa0f7c9f9f10e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/libUniWebView.a using Guid(060e1768692e941c2aa0f7c9f9f10e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efc8e28c98c390946d9bfe1684f3c3b') in 0.106880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/GoogleSignIn/GoogleSignInUser.cs
+  artifactKey: Guid(c56b92217d0144af5907627d1235e0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/GoogleSignInUser.cs using Guid(c56b92217d0144af5907627d1235e0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd15d3c3d4ad694dea07c606f6066175') in 0.001872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Plugins/iOS/GoogleSignIn/GoogleSignInAppController.h
+  artifactKey: Guid(ce40e3e7b37a54617a4683dfc0479c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/GoogleSignIn/GoogleSignInAppController.h using Guid(ce40e3e7b37a54617a4683dfc0479c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82795a77cff1135466fd8515e81dfe6a') in 0.131065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com
+  artifactKey: Guid(ade49ef91c70440a0baeac322ecaa2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com using Guid(ade49ef91c70440a0baeac322ecaa2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6ef8609cf7333e92dd266cc6f97719') in 0.002261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023452 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4/google-signin-support-1.0.4.pom
+  artifactKey: Guid(a3f74b3d329a24e81a6c6f9f1d2f46f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4/google-signin-support-1.0.4.pom using Guid(a3f74b3d329a24e81a6c6f9f1d2f46f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328edaaf799c8475c2a8e2c32d5fbea0') in 0.109939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.177
+  artifactKey: Guid(51a9e31fdc9584b418f4a3444147533f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.177 using Guid(51a9e31fdc9584b418f4a3444147533f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869e948c844e05de6416c35bb7110d3b') in 0.001410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/GoogleSignIn/Editor
+  artifactKey: Guid(2651a9879835041e1ae7c43e545817f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor using Guid(2651a9879835041e1ae7c43e545817f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2980c260a2dfc03260f6642e2473fe59') in 0.001531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/GoogleSignIn/Editor/GoogleSignInSupportDependencies.xml
+  artifactKey: Guid(e8689106c65f445c19cec6044d615c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/GoogleSignInSupportDependencies.xml using Guid(e8689106c65f445c19cec6044d615c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e812008d36ce772c185a4320ca79a1') in 0.002372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/GoogleSignIn/Future.cs
+  artifactKey: Guid(ad3b09fb652fb4ff0a68d1966f13160e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Future.cs using Guid(ad3b09fb652fb4ff0a68d1966f13160e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b46fb40133d0b60baf76d827bb6e58f') in 0.002684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/GoogleSignIn/GoogleSignIn.cs
+  artifactKey: Guid(138b984208e394be797ce8905a44fd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/GoogleSignIn.cs using Guid(138b984208e394be797ce8905a44fd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de249794a26e3e21089ffc5199148993') in 0.002508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.177/Google.JarResolver.dll.mdb
+  artifactKey: Guid(c613343662334614b65918fa6cf9c17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.177/Google.JarResolver.dll.mdb using Guid(c613343662334614b65918fa6cf9c17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b188d7902713132186852bb4c160338a') in 0.002824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/ExternalDependencyManager/Editor/LICENSE
+  artifactKey: Guid(7640443de1d445eab9dfaac68fefcc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/LICENSE using Guid(7640443de1d445eab9dfaac68fefcc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f56668a073a81d49b3e224caae7359f') in 0.001708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google/signin
+  artifactKey: Guid(34b86fc2e934d482ea5f9d1f5354b0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google/signin using Guid(34b86fc2e934d482ea5f9d1f5354b0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582475b541fabbe4de9e060dbc0bace2') in 0.001892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/GoogleSignIn/Impl/SignInHelperObject.cs
+  artifactKey: Guid(ad98e5b48888e44eb81dd5884d3a1754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Impl/SignInHelperObject.cs using Guid(ad98e5b48888e44eb81dd5884d3a1754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e451cdc51a270abba9c1d1c644ff3a') in 0.002087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/GoogleSignIn/GoogleSignResult.cs
+  artifactKey: Guid(e0d14134d6a75491d826ecc3095fddaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/GoogleSignResult.cs using Guid(e0d14134d6a75491d826ecc3095fddaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df3a372e377f90ab167020451610bf4') in 0.003035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Parse/Plugins/Unity.Compat.dll
+  artifactKey: Guid(0983b695c3c6148a58a2163488772971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parse/Plugins/Unity.Compat.dll using Guid(0983b695c3c6148a58a2163488772971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59165e2a7e31c4e5d1dc4960ac330ee3') in 0.002250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(11bf9545a722341b6ba971705a514a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(11bf9545a722341b6ba971705a514a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec82529204863dfd99232d078a181c5') in 0.001739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.177/Google.PackageManagerResolver.dll
+  artifactKey: Guid(413ed4abd14645c38ebbd8c5ff26e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.177/Google.PackageManagerResolver.dll using Guid(413ed4abd14645c38ebbd8c5ff26e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0c24332eabc431d27c01038f1b6875') in 0.002983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Plugins/iOS
+  artifactKey: Guid(367a2849a95b040e2ab7533314f868f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS using Guid(367a2849a95b040e2ab7533314f868f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201710543d8afb904b852206f2134b9d') in 0.001472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/ExternalDependencyManager
+  artifactKey: Guid(3ae61f0826f15490c9df414d4d273d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager using Guid(3ae61f0826f15490c9df414d4d273d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b9650dcbc065481a40f62a399c36de') in 0.002333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Plugins/iOS/GoogleSignIn/GoogleSignInAppController.mm
+  artifactKey: Guid(50b2e1c9319e4446e9dbd9b183790472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/GoogleSignIn/GoogleSignInAppController.mm using Guid(50b2e1c9319e4446e9dbd9b183790472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb52dcdf88c07053f0ab3b2539e1459') in 0.133113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/ExternalDependencyManager/Editor/CHANGELOG.md
+  artifactKey: Guid(6cdb6572965940cb9bcd8ce572951c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/CHANGELOG.md using Guid(6cdb6572965940cb9bcd8ce572951c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cabc51bb8082876638fe381bc03f5f') in 0.002394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Parse/Plugins
+  artifactKey: Guid(aecfff8cf5706409e93b95c9c1081553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parse/Plugins using Guid(aecfff8cf5706409e93b95c9c1081553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af53c9f7476a8de38afaf974a7420de') in 0.001398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.177/Google.JarResolver.dll
+  artifactKey: Guid(1f4f113972f04c3695341dfb3ba48d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.177/Google.JarResolver.dll using Guid(1f4f113972f04c3695341dfb3ba48d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b51c0c3c7184df8b5183b76227aea4') in 0.002636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.177/Google.VersionHandlerImpl.dll.mdb
+  artifactKey: Guid(bd203ff120ed4c69bfdeffa466beec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.177/Google.VersionHandlerImpl.dll.mdb using Guid(bd203ff120ed4c69bfdeffa466beec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eff9806bc5da79c7d16bd86e8bd4139') in 0.002847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support
+  artifactKey: Guid(e3becceb8680148d59e5bb93e5eb5a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support using Guid(e3becceb8680148d59e5bb93e5eb5a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb8482c7a8ac14592c6e06ef0ec3e0f') in 0.001621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/GoogleSignIn/Editor/google-signin-plugin_v1.0.4.txt
+  artifactKey: Guid(a67d5f0cfc09749e6b1ce13e8b8e6e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/google-signin-plugin_v1.0.4.txt using Guid(a67d5f0cfc09749e6b1ce13e8b8e6e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ea80055a9e0cf2fd4bb957ae627b63') in 0.844898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/ExternalDependencyManager/Editor
+  artifactKey: Guid(e0b336d3cbf634a3ba1c6e6ac7d230a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor using Guid(e0b336d3cbf634a3ba1c6e6ac7d230a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bff39449dad8e05dd7f1892a50cca1') in 0.001294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/maven-metadata.xml.sha1
+  artifactKey: Guid(16b8065a143bb4277af08381a56157dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/maven-metadata.xml.sha1 using Guid(16b8065a143bb4277af08381a56157dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237dff2c2e307fb3525e22cf342b3cc1') in 0.103910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.177/Google.PackageManagerResolver.dll.mdb
+  artifactKey: Guid(b60e304f823d423da748809d088d67b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.177/Google.PackageManagerResolver.dll.mdb using Guid(b60e304f823d423da748809d088d67b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868bfe96d18ae5396a94266f71a02b9c') in 0.002272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.177_manifest.txt
+  artifactKey: Guid(2764c5ea3b354f3cb7ca80028fd08da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.177_manifest.txt using Guid(2764c5ea3b354f3cb7ca80028fd08da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a660fe8907751b81adb826a0c73538') in 0.002623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.177/Google.VersionHandlerImpl.dll
+  artifactKey: Guid(38d0b40a7b2d44c6a6a2362599bfc41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.177/Google.VersionHandlerImpl.dll using Guid(38d0b40a7b2d44c6a6a2362599bfc41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c782e3267c567608ff4d8c28dd71c00e') in 0.002279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs
+  artifactKey: Guid(9ae1f008f9f994b9c96c1a14067d7b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs using Guid(9ae1f008f9f994b9c96c1a14067d7b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22fac170a83adc7ed8a1c5e9e54d515') in 0.002960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000998 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4/google-signin-support-1.0.4.pom.sha1
+  artifactKey: Guid(e1a3ff77f802d43818521ff3db2bf944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4/google-signin-support-1.0.4.pom.sha1 using Guid(e1a3ff77f802d43818521ff3db2bf944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50117e9495069c4bf27d3efda669fbaf') in 0.003568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4/google-signin-support-1.0.4.pom.md5
+  artifactKey: Guid(907bf7a19cd7848cabf1f641f61343ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4/google-signin-support-1.0.4.pom.md5 using Guid(907bf7a19cd7848cabf1f641f61343ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307a1135acd3b13a68ae86f426470708') in 0.002936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Plugins/iOS/GoogleSignIn/GoogleSignIn.mm
+  artifactKey: Guid(521784ee6b2184e0e947a8fd1508afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/GoogleSignIn/GoogleSignIn.mm using Guid(521784ee6b2184e0e947a8fd1508afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0df048ef34bec1edbf2a7943df3252') in 0.003026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/GoogleSignIn/GoogleSignInStatusCode.cs
+  artifactKey: Guid(077933fcaedac412d9762bf3e0a3be68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/GoogleSignInStatusCode.cs using Guid(077933fcaedac412d9762bf3e0a3be68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6f0fd136bfb9be47e29ae10e8f982a') in 0.002200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000935 seconds.
+  path: Assets/Plugins/iOS/GoogleSignIn
+  artifactKey: Guid(07c86a3f84f494e589218ed67d10255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/GoogleSignIn using Guid(07c86a3f84f494e589218ed67d10255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38bae0db15937c2977a54060cd17023') in 0.001729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4/google-signin-support-1.0.4.srcaar.sha1
+  artifactKey: Guid(d508eb0e16bb14c8a962b343e755ef01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4/google-signin-support-1.0.4.srcaar.sha1 using Guid(d508eb0e16bb14c8a962b343e755ef01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4041ba1702518adac5fa283ac4fbdf') in 0.002726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/GoogleSignIn/Impl/BaseObject.cs
+  artifactKey: Guid(fe250cda690a44cb08f8f7d26c9723b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Impl/BaseObject.cs using Guid(fe250cda690a44cb08f8f7d26c9723b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6589986c2b9a5e3be23270426d8f3d') in 0.003204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Plugins/iOS/GoogleSignIn/GoogleSignIn.h
+  artifactKey: Guid(62c129704e1ec48179ba285e1af154b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/GoogleSignIn/GoogleSignIn.h using Guid(62c129704e1ec48179ba285e1af154b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327c88522db28967c0c69b2515a341d0') in 0.003151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Parse/Plugins/Unity.Tasks.dll
+  artifactKey: Guid(af535f85bedbe4425b5153ac2087c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parse/Plugins/Unity.Tasks.dll using Guid(af535f85bedbe4425b5153ac2087c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833b44d4ce2b820b70e87fc807774d09') in 0.003011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.177/Google.IOSResolver.dll.mdb
+  artifactKey: Guid(adacdf2f31cf474c99788c9454063fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.177/Google.IOSResolver.dll.mdb using Guid(adacdf2f31cf474c99788c9454063fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e627717cb0e4e85f50504a7702ec42f4') in 0.002921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4
+  artifactKey: Guid(001a15402063b4df983ba8bc4ddb269f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4 using Guid(001a15402063b4df983ba8bc4ddb269f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5143238708ec477303892a0c7515542') in 0.001459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Parse
+  artifactKey: Guid(d1a8f2ea2fc954f4db9d55a59d097a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parse using Guid(d1a8f2ea2fc954f4db9d55a59d097a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12683fb989b50c774322cc26187f5d86') in 0.001629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4/google-signin-support-1.0.4.srcaar
+  artifactKey: Guid(6eab7a3cbdbf34cffaf951dc9210a32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4/google-signin-support-1.0.4.srcaar using Guid(6eab7a3cbdbf34cffaf951dc9210a32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34116b68972c371bb6d5a9c7d4d6ae93') in 0.112087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/maven-metadata.xml
+  artifactKey: Guid(f3911d467587242978192a8723c68395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/maven-metadata.xml using Guid(f3911d467587242978192a8723c68395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5208bbe624d2f5d60b5fa4fa45e26576') in 0.002276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/GoogleSignIn/Editor/m2repository/com/google
+  artifactKey: Guid(707de6ade212a46b1ab4bf4d42325176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/Editor/m2repository/com/google using Guid(707de6ade212a46b1ab4bf4d42325176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa69b41caa2006d97f457944335761b') in 0.001525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/GoogleSignIn/GoogleSignInConfiguration.cs
+  artifactKey: Guid(0c3999c0f68f04ae08f04fb3bf2a2050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignIn/GoogleSignInConfiguration.cs using Guid(0c3999c0f68f04ae08f04fb3bf2a2050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827fdc0f8c4c7f896adea011c2bc8021') in 0.002467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Plugins/iOS/GoogleSignIn.zip
+  artifactKey: Guid(eede8b1cbbbd74fd29eac6e0c5419977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/GoogleSignIn.zip using Guid(eede8b1cbbbd74fd29eac6e0c5419977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fd7e3fd56762be92941cc7eb7542db') in 0.117469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.177/Google.IOSResolver.dll
+  artifactKey: Guid(5552c54c11d94016bcfe740f27df44a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.177/Google.IOSResolver.dll using Guid(5552c54c11d94016bcfe740f27df44a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e87911f6cd8339914ade8012bfb2b4') in 0.001754 seconds 
