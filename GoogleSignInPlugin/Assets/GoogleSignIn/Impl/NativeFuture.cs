@@ -17,6 +17,7 @@
 namespace Google.Impl {
   using System;
   using System.Runtime.InteropServices;
+    using UnityEngine;
 
   /// <summary>
   /// Native future is an interal class that implements the FutureAPIImpl
@@ -40,45 +41,106 @@ namespace Google.Impl {
 
     public GoogleSignInUser Result {
       get {
-        IntPtr ptr = GoogleSignInImpl.GoogleSignIn_Result(SelfPtr());
-        if (ptr != IntPtr.Zero) {
-          GoogleSignInUser user = new GoogleSignInUser();
-          HandleRef userPtr = new HandleRef(user, ptr);
 
-          user.DisplayName = OutParamsToString((out_string, out_size) =>
-                  GoogleSignInImpl.GoogleSignIn_GetDisplayName(userPtr,
-                                                               out_string,
-                                                               out_size));
-          user.Email = OutParamsToString((out_string, out_size) =>
-              GoogleSignInImpl.GoogleSignIn_GetEmail(userPtr, out_string,
+#if UNITY_IOS
+
+IntPtr resultPtr = GoogleSignInImpl.GoogleSignIn_Result(SelfPtr());
+        IntPtr userPtr = GoogleSignInImpl.GoogleSignIn_ResultUser(SelfPtr());
+        if (resultPtr != IntPtr.Zero) {
+           GoogleSignInUser user = new GoogleSignInUser();
+           
+           GoogleSignInResult result = new GoogleSignInResult();
+           
+           HandleRef resultRef = new HandleRef(result, resultPtr);
+           
+           HandleRef userRef = new HandleRef(user, userPtr);
+           
+           user.AuthCode = OutParamsToString((out_string, out_size) =>
+           GoogleSignInImpl.GoogleSignIn_GetServerAuthCode(resultRef, out_string,
                                                      out_size));
-
-          user.FamilyName = OutParamsToString((out_string, out_size) =>
-              GoogleSignInImpl.GoogleSignIn_GetFamilyName(userPtr, out_string,
+           
+           user.DisplayName = OutParamsToString((out_string, out_size) =>
+           GoogleSignInImpl.GoogleSignIn_GetDisplayName(userRef,
+                                                     out_string,
+                                                     out_size));
+           
+           user.Email = OutParamsToString((out_string, out_size) =>
+           GoogleSignInImpl.GoogleSignIn_GetEmail(userRef,
+                                                 out_string,
+                                                 out_size));
+           
+           user.FamilyName = OutParamsToString((out_string, out_size) =>
+           GoogleSignInImpl.GoogleSignIn_GetFamilyName(userRef, out_string,
+                                                           out_size));
+           
+           user.GivenName = OutParamsToString((out_string, out_size) =>
+           GoogleSignInImpl.GoogleSignIn_GetGivenName(userRef, out_string,
                                                           out_size));
-
-          user.GivenName = OutParamsToString((out_string, out_size) =>
-              GoogleSignInImpl.GoogleSignIn_GetGivenName(userPtr, out_string,
-                                                         out_size));
-
-          user.IdToken = OutParamsToString((out_string, out_size) =>
-              GoogleSignInImpl.GoogleSignIn_GetIdToken(userPtr, out_string,
-                                                       out_size));
-
-          user.AuthCode = OutParamsToString((out_string, out_size) =>
-              GoogleSignInImpl.GoogleSignIn_GetServerAuthCode(userPtr, out_string,
-                                                              out_size));
-
-          string url = OutParamsToString((out_string, out_size) =>
-              GoogleSignInImpl.GoogleSignIn_GetImageUrl(userPtr, out_string,
+           
+           user.IdToken = OutParamsToString((out_string, out_size) =>
+               GoogleSignInImpl.GoogleSignIn_GetIdToken(userRef, out_string,
                                                         out_size));
-          if (url.Length > 0) {
-            user.ImageUrl = new System.Uri(url);
-          }
+           
+           string url = OutParamsToString((out_string, out_size) =>
+           GoogleSignInImpl.GoogleSignIn_GetImageUrl(userRef, out_string,
+                                                     out_size));
+           
+           if ((url != null) && (url.Length > 0)) {
+             user.ImageUrl = new System.Uri(url);
+           }
+           
+           user.UserId = OutParamsToString((out_string, out_size) =>
+               GoogleSignInImpl.GoogleSignIn_GetUserId(userRef, out_string,
+                                                       out_size));
+#elif UNITY_ANDROID
 
-          user.UserId = OutParamsToString((out_string, out_size) =>
-              GoogleSignInImpl.GoogleSignIn_GetUserId(userPtr, out_string,
-                                                      out_size));
+        IntPtr userPtr = GoogleSignInImpl.GoogleSignIn_Result(SelfPtr());
+        if (userPtr != IntPtr.Zero)
+        {
+            GoogleSignInUser user = new GoogleSignInUser();
+
+            HandleRef userRef = new HandleRef(user, userPtr);
+
+            user.AuthCode = OutParamsToString((out_string, out_size) =>
+            GoogleSignInImpl.GoogleSignIn_GetServerAuthCode(userRef, out_string,
+                                                        out_size));
+
+            user.DisplayName = OutParamsToString((out_string, out_size) =>
+            GoogleSignInImpl.GoogleSignIn_GetDisplayName(userRef,
+                                                        out_string,
+                                                        out_size));
+
+            user.Email = OutParamsToString((out_string, out_size) =>
+            GoogleSignInImpl.GoogleSignIn_GetEmail(userRef,
+                                                    out_string,
+                                                    out_size));
+
+            user.FamilyName = OutParamsToString((out_string, out_size) =>
+            GoogleSignInImpl.GoogleSignIn_GetFamilyName(userRef, out_string,
+                                                            out_size));
+
+            user.GivenName = OutParamsToString((out_string, out_size) =>
+            GoogleSignInImpl.GoogleSignIn_GetGivenName(userRef, out_string,
+                                                            out_size));
+
+            user.IdToken = OutParamsToString((out_string, out_size) =>
+            GoogleSignInImpl.GoogleSignIn_GetIdToken(userRef, out_string,
+                                                            out_size));
+
+            string url = OutParamsToString((out_string, out_size) =>
+            GoogleSignInImpl.GoogleSignIn_GetImageUrl(userRef, out_string,
+                                                        out_size));
+
+            if ((url != null) && (url.Length > 0))
+            {
+                user.ImageUrl = new System.Uri(url);
+            }
+
+            user.UserId = OutParamsToString((out_string, out_size) =>
+            GoogleSignInImpl.GoogleSignIn_GetUserId(userRef, out_string,
+                                                        out_size));
+
+#endif
           return user;
         } else {
           return null;

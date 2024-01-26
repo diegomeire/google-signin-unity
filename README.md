@@ -1,6 +1,6 @@
-# Google Sign-In Unity Plugin
+# Google Sign-In Unity Plugin (forked from Google)
 _Copyright (c) 2017 Google Inc. All rights reserved._
-
+Updated by Diego Meire - 2024
 
 ## Overview
 
@@ -13,6 +13,9 @@ It is cross-platform, supporting both Android and iOS.
 
 See [Google Sign-In for Android](https://developers.google.com/identity/sign-in/android/start)
 for more information.
+
+Google hasn't updated their repo in years so I decided to adjust this plugin to work with the latest version of Google Sign In (7.0.0)
+
 
 ## Configuring the application  on the API Console
 

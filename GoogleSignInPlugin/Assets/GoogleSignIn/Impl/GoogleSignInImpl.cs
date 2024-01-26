@@ -18,6 +18,7 @@ namespace Google.Impl {
   using System;
   using System.Collections.Generic;
   using System.Runtime.InteropServices;
+    using UnityEngine;
 
   internal class GoogleSignInImpl : BaseObject, ISignInImpl {
 
@@ -30,11 +31,16 @@ namespace Google.Impl {
     internal GoogleSignInImpl(GoogleSignInConfiguration configuration)
           : base(GoogleSignIn_Create(GetPlayerActivity())) {
 
+            Debug.Log(" Entered Configure");
+
       if (configuration != null) {
-        List<string> scopes = new List<string>();
+                Debug.Log(" Configure # 1");
+                List<string> scopes = new List<string>();
         if (configuration.AdditionalScopes != null) {
           scopes.AddRange(configuration.AdditionalScopes);
         }
+
+                Debug.Log(" Configure # 2");
         GoogleSignIn_Configure(SelfPtr(), configuration.UseGameSignIn,
                      configuration.WebClientId,
                      configuration.RequestAuthCode,
@@ -45,6 +51,8 @@ namespace Google.Impl {
                      scopes.ToArray(),
                      scopes.Count,
                      configuration.AccountName);
+
+                Debug.Log(" Configure # 3");
       }
     }
 
@@ -62,8 +70,11 @@ namespace Google.Impl {
     /// the requested elements.
     /// </remarks>
     public Future<GoogleSignInUser> SignIn() {
-      IntPtr nativeFuture = GoogleSignIn_SignIn(SelfPtr());
-      return new Future<GoogleSignInUser>(new NativeFuture(nativeFuture));
+            Debug.Log(" SignIn # 1");
+            IntPtr nativeFuture = GoogleSignIn_SignIn(SelfPtr());
+            Debug.Log(" SignIn # 2");
+            Debug.Log(nativeFuture);
+            return new Future<GoogleSignInUser>(new NativeFuture(nativeFuture));
     }
 
     /// <summary>
@@ -135,6 +146,10 @@ namespace Google.Impl {
 
     [DllImport(DllName)]
     internal static extern IntPtr GoogleSignIn_Result(HandleRef self);
+
+
+    [DllImport(DllName)]
+    internal static extern IntPtr GoogleSignIn_ResultUser(HandleRef self);
 
     [DllImport(DllName)]
     internal static extern int GoogleSignIn_Status(HandleRef self);

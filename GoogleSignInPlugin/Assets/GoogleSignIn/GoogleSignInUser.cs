@@ -16,7 +16,7 @@
 
 namespace Google {
   using System;
-
+      
     /// <summary> Information for the authenticated user.</summary>
     public class GoogleSignInUser {
 
